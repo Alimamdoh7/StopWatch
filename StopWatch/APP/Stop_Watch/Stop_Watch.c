@@ -46,6 +46,16 @@ void Project_Init (void)
 {
 	Drivers_Init();
 	LCD_GoTo(0,0);
+	LCD_WriteString("StopWatch");
+	_delay_ms(2000);
+	LCD_Clear();
+	LCD_GoTo(0,0);
+	LCD_WriteString("Mady By:");
+	LCD_GoTo(1,0);
+	LCD_WriteString("Ali Mamdoh");
+	_delay_ms(2000);
+	LCD_Clear();
+	LCD_GoTo(0,0);
 	LCD_WriteString("MIN : SEC");
 	LCD_GoTo(1,0);
 	LCD_WriteInteger(i);
