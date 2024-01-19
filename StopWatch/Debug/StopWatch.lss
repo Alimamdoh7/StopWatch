@@ -158,7 +158,7 @@ void Project_Init (void)
   d0:	60 e0       	ldi	r22, 0x00	; 0
   d2:	80 e0       	ldi	r24, 0x00	; 0
   d4:	0e 94 17 04 	call	0x82e	; 0x82e <LCD_GoTo>
-	LCD_WriteString("Mady By:");
+	LCD_WriteString("Made By:");
   d8:	8e e8       	ldi	r24, 0x8E	; 142
   da:	90 e0       	ldi	r25, 0x00	; 0
   dc:	0e 94 76 03 	call	0x6ec	; 0x6ec <LCD_WriteString>
