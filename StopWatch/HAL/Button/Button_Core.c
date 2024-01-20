@@ -28,7 +28,7 @@ uint8 Button_GetValue(uint8 Button)
 	    {
 		Temp= GET_BIT(PIND,2);
 	    }*/
-	     _delay_ms(40);
+	     _delay_ms(30);
 		 break;
 		 
 		 case Button_2:
@@ -37,7 +37,7 @@ uint8 Button_GetValue(uint8 Button)
 	    {
 		Temp= GET_BIT(PIND,2);
 	    }*/
-		 _delay_ms(40);
+		 _delay_ms(30);
 		 break;
 		 
 		 case Button_3:
@@ -46,7 +46,7 @@ uint8 Button_GetValue(uint8 Button)
 	    {
 		Temp= GET_BIT(PIND,2);
 	    }*/
-		 _delay_ms(40);
+		 _delay_ms(30);
 		 break;
 		 
 		 case Button_4:
@@ -55,7 +55,7 @@ uint8 Button_GetValue(uint8 Button)
 	    {
 		Temp= GET_BIT(PIND,2);
 	    }*/
-		 _delay_ms(40);
+		 _delay_ms(30);
 		 break;
 		 default:
 		 break;

@@ -22,6 +22,7 @@ PIN_PARAMETERS PORT_Initialization[DEFINED_PINS]=
 	{ PORTD_PIN4   ,  PIN_DIR_INPUT  },
 	{ PORTD_PIN5   ,  PIN_DIR_INPUT  },
 	//Buzzer	
-	{ PORTC_PIN5   ,  PIN_DIR_OUTPUT  }
+	{ PORTC_PIN5   ,  PIN_DIR_OUTPUT  },
+	{ PORTC_PIN2   ,  PIN_DIR_OUTPUT  }	
 						
 };  //This is Array of Structs

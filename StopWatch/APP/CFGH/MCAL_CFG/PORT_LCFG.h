@@ -11,7 +11,7 @@
 
 #include "STD.h"
 
-#define  DEFINED_PINS          11//DEFINED_PINS is the number of pins we need in our project
+#define  DEFINED_PINS          14//DEFINED_PINS is the number of pins we need in our project
 #define  NUMBER_OF_PORT_PINS   8
 
 #define PORTA_PIN0  0
